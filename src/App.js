@@ -113,6 +113,84 @@ function App() {
           <img className="header-info-logo-white" src={logoWhite} />
         </section>
       </section>
+
+      <section className="sh-section-2 sh-section-5">
+        <section className="sh-section-2-container sh-section-5-container">
+          <article className="sh-section-2-article-heading sh-section-5-article-heading">
+            Machinery{" "}
+          </article>
+
+          <article className="sh-section-2-article">
+            <label className="sh-section-2-article-text sh-section-4-heading">
+              <span className="number-circle">2</span> L&T KOTMATSU PC 210{" "}
+            </label>
+            <label className="sh-section-2-article-text sh-section-4-heading">
+              <span className="number-circle">3</span> TATA HITACHI 200
+            </label>
+            <label className="sh-section-2-article-text sh-section-4-heading">
+              <span className="number-circle">2</span> JCB
+            </label>
+            <label className="sh-section-2-article-text sh-section-4-heading">
+              <span className="number-circle"> 5</span> TATA HITACH DUMPER
+            </label>
+          </article>
+        </section>
+
+        <section className="sh-logo-footer-container">
+          <img className="header-info-logo-white" src={logoWhite} />
+        </section>
+      </section>
+
+      <section className="sh-section-2 sh-section-6 ">
+        <section className="sh-section-2-container sh-section-6-container">
+          <section className="sh-section-6-article-container">
+            <section className="sh-section-6-article-container-left-section">
+              <h2 className="section-header-title">Recent Projects </h2>
+              <span className="section-header-title-highlight">
+                [EXCAVATION]
+              </span>
+            </section>
+            <section className="sh-section-6-article-container-right-section">
+              <h2 className="sh-section-6-article-container-right-section-header">
+                Commissioned projects to the tune of over 15 Crores within a
+                short period.
+              </h2>
+              <label className="sh-section-6-article-container-right-section-description">
+                Shabri Group Commercial project Chembur : 26300mcb. Amount.
+                1.53cr<br></br>
+                Dhoot Developer Chembur : 2200 mcb. Amount. 16 lacks<br></br>
+                TATA company. Chembur :18000. Mcb. Amount. 90 lacks<br></br>
+                Satar & Naman Group matunga :26400/- amount. 1.85 cr<br></br>
+                Shabri Group natekar heights Chembur. :18000 mcb Amount.
+                1350000/<br></br>
+                Shabri Group Residential project Chembur :34500 mcb 2.29 cr
+                <br></br>
+                Ameet Group Chembur 3500 mcb. Amount. 20 lacks<br></br>
+                HubTown Seosons Chembur 2500/- mub. Amount. 18 lacks<br></br>
+                HubTown seosons Chembur 1800 mub Amount. 1450000/-<br></br>
+                Tattva Mittal Chembur. 4000 mcb Amount. 3450000/-<br></br>
+                Jron. Abodes matunga 2500. Mcb. Amount 1650000/-<br></br>
+                Bombay IX. Mahalaxmi 16000/- mcb. Rs. 2.5 cr<br></br>
+                Tattva Mittal. B P Ganger Wadala 12000/- mcbMittal sky rs 1.5 cr
+                <br></br>
+                Shabri Garden Chembur13500/-mcb1.2cr 15.<br></br>
+                Arco Enginner Vashi 2500/- mcb 150000/-<br></br>
+                Junjunwala foundation and Shankara Eye care Hospital Panvel.
+                14500/- mcb<br></br>
+                Rs 900000/-<br></br>
+                Tattva Mittal VGM project Andheri West 2500 mcb Rs 2750000/-
+                <br></br>
+                Aviva Ghatkoper east 3000. Mcb.Rs 1750000–<br></br>
+                MDL. Generic MazaGaon 1500 mcb. Amount 1150000/-<br></br>
+              </label>
+            </section>
+          </section>
+        </section>
+
+        <section className="sh-logo-footer-container">
+          <img className="header-info-logo-white" src={logoWhite} />
+        </section>
+      </section>
     </div>
   );
 }
