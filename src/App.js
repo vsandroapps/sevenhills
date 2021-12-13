@@ -183,12 +183,60 @@ function App() {
                 Aviva Ghatkoper east 3000. Mcb.Rs 1750000–<br></br>
                 MDL. Generic MazaGaon 1500 mcb. Amount 1150000/-<br></br>
               </label>
+              <img
+                className="header-info-logo-white sh-section-6-image"
+                src={logoWhite}
+              />
             </section>
           </section>
         </section>
+      </section>
 
-        <section className="sh-logo-footer-container">
-          <img className="header-info-logo-white" src={logoWhite} />
+      <section className="sh-section-2 sh-section-7 ">
+        <section className="sh-section-2-container sh-section-6-container">
+          <section className="sh-section-6-article-container">
+            <section className="sh-section-6-article-container-right-section section-7-background">
+              <h2 className="sh-section-6-article-container-right-section-header">
+                Erasing Structures for New Habitats
+              </h2>
+              <label className="sh-section-6-article-container-right-section-description sh-section-7-right-section-description">
+              Mittal Chembur site Kandari colony G+4 , 4 Buildings<br/>
+Mittal Andheri Site Rashim co op HSG society<br/>
+Mittal Saat Rasta site B I T Chawl G+5. 8 buildings<br/>
+Sabari natakar site G+2 |Sabari Garden site Chembur Basement G +2<br/>
+Aviva Ghatkopar G+4 | Rakesh Jhunjhunwala Panvel site G+7. 2 buildings<br/>
+M/s Westin Developers pvt.ltd | Veera desai andheri (W)<br/>
+M/s Ventures Kuber Reality LLP | Ville parle (E)<br/>
+\M/s Ayappa construction company | Santacruuz (W)<br/>
+M/.s Dipti Home Makers Pvt.ltd | Ambolinaka, Jogeshwari(E)<br/>
+M/s Ayappa construction company |Santacruz (W)<br/>
+M/s Wadhwa Estates & Developers Pvt.ltd | Juhu JVPD andheri(w) M/s Dipti<br/>
+Homemakers Pvt.ltd Jogeshwari (E)<br/>
+M/s Sai sidhant Developers | Dn Nagar Andheri (w)<br/>
+M/s Sheth builder's pvt Ltd | Mulund (w)<br/>
+M/s Nidhi Tower | Juhu Andheri (W)<br/>
+M/s Romell Realstate Pvt. Ltd | Vile Parle (E)<br/>
+M/s Ayappa Constructions Company | Santacruz (W)<br/>
+M/s Agaa enterprises Bandra (W)<br/>
+M/s Champak Textiles Pvt. Ltd. | Laxmi Industrial Estate, Andheri (W)<br/>
+M/s Ayappa Constructions Company | Santacruz (W)<br/>
+M/s Ameya Group Of Companies | Versova Yari Road, Andheri (W)<br/>
+M/s Milind Developers | Goregaon (E)<br/>
+M/s Dipti Homemakers Pvt. Ltd. | Amboli Naka, Jogeshwari (E)<br/>
+M/s Ayappa Constructions Company | Santacruz (w)
+              </label>
+              <img
+                className="header-info-logo-white sh-section-7-image"
+                src={logoWhite}
+              />
+            </section>
+            <section className="sh-section-6-article-container-left-section section-7-background-right">
+              <h2 className="section-header-title">Recent Projects </h2>
+              <span className="section-header-title-highlight section-7-header-title-highlight">
+                [DEMOLITION]
+              </span>
+            </section>
+          </section>
         </section>
       </section>
     </div>

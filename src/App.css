@@ -25,17 +25,7 @@
   display: flex;
   padding-top: 200px;
 }
-.sh-section-2:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.5);
-  transition: all 0.2s linear;
-}
+
 .sh-section-3 {
   width: 100%;
   background-image: url("./images/image3.jpg");
@@ -175,6 +165,8 @@
   padding-left: 72px;
   text-align: left;
   padding-top: 2em;
+  z-index: 1;
+height: 100%;
 
 
 }
@@ -207,6 +199,46 @@
 .sh-section-6-article-container-right-section-description{
   font-size: 26px;
   
+}
+.sh-section-6-image{
+  top: -50px;
+  position: relative;
+  left: 60%;
+  z-index: -2;  
+}
+
+.sh-section-7 {
+background-image: none;
+}
+.section-7-background{
+  background-image: url("./images/image7.jpg");
+  background-repeat: no-repeat;
+  height: 1347px;
+  background-size: cover;
+}
+
+.section-7-background-right{
+  background-image: url("./images/image8.jpg");
+  background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    height: 1271px;
+
+
+}
+.sh-section-7-image{
+  position: relative;
+  z-index: -2;  
+  left: 210%;
+
+
+}
+.sh-section-7-right-section-description{
+  line-height: 32px;
+}
+.section-7-header-title-highlight{
+  color: #ff0000;
+
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
