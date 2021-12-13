@@ -1,11 +1,145 @@
 .App {
   text-align: center;
+  font: 19px 'Times New Roman';
+
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.sh-intro-section{
+  width: 100%;
+  background-image: url('./images/main.jpg');
+  background-repeat: no-repeat;
+  height: 1357px;
+  background-size: contain;
+}
+.sh-section-2{
+  width: 100%;
+  background-image: url('./images/image2-1.jpg');
+  background-repeat: no-repeat;
+  height: 1357px;
+  background-size: contain;
+
+  
+}
+.sh-section-2-container{
+display: flex;
+padding-top: 200px;
+
+}
+.sh-section-2:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all .2s linear;
+}
+.sh-section-3{
+  width: 100%;
+  background-image: url('./images/image3.jpg');
+  background-repeat: no-repeat;
+  height: 1357px;
+  background-size: contain;
+
+  
+}
+.sh-section-4{
+  background-image: url('./images/image4.jpg');
+
+}
+.sh-section-3-article-text{
+text-align: left;
+  font-size: 40px;
+  display: block;
+  margin: 1em;
+}
+.sh-section-3-container{
+  padding: 17em 15em 21em 15em;
+}
+.sh-section-2-article{
+  color: white;
+    font-size: 30px;
+    width: 45%;
+    border: 1px solid;
+    padding: 3em;
+    margin-left: 200px;
+}
+.header-info-logo-white{
+  width: 200px;
+}
+.sh-logo-footer-container{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 100px;
+}
+.sh-section-2-article-text{
+  display: block;
+    text-align: left;
+    line-height: 1.3;
+    font-size: 32px;
+
+}
+.sh-section-2-article-heading{
+  color: white;
+  width: 20%;
+text-align: left;
+padding-left: 1em;
+  font-size: 64px;
+}
+.header-info-logo{
+  width: 450px;
+  margin-top: 300px;
+}
+.profile-text-container{
+  font: 64px 'Times New Roman';
+    color: #ffffff;
+    line-height: 43px;
+    position: relative;
+    top: 400px;
+    display: inline-block;
+    left: 21%;
+}
+
+.profile-divider{
+  display: inline-block;
+  border-left: 6px solid white;
+  height: 200px;
+  position: relative;
+
+  margin-left: 67px;
+  margin-right: 20px;
+}
+.profile-text{
+  width: 200px;
+  display: inline-block;
+  line-height: 64px;
+
+}
+.profile-text-left{
+  top: -110px;
+position: relative;
+}
+.sh-section-4-heading{
+  font: 35px 'Courier New';
+  color: #ffffff;
+  line-height: 1;
+  font-size: 52px;
+  margin-bottom: 1em;
+}
+.sh-section-4-article-text{
+  margin-bottom: 1em;
+
+}
+.sh-section-4-container{
+padding-top: 300px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
