@@ -269,14 +269,23 @@ flex-direction: column;
   width: 100%;
 }
 .sh-section-8-container-row-1{
-margin-top: 120px;
+margin-top: 200px;
 }
 .client-logos {
-  width: 200px;
-  margin: 8px;
+  width: 244px;
+  margin: 4px 8px;
   height: 100px;
   border: 1px solid darkgrey;
   
+}
+.client-logos-large{
+  height: 220px;
+}
+.middle-section-row{
+  width: 524px;
+}
+.client-logo-thin{
+  width: 150px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

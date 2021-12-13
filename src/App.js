@@ -13,6 +13,17 @@ import sabariLogo from "./images/sabari.jpg"; // with import
 import ameetLogo from "./images/ameet.jpg"; // with import
 import virakarLogo from "./images/vira.jpg"; // with import
 
+import jronLogo from "./images/jron.jpg"; // with import
+import tattvaLogo from "./images/tattva.jpg"; // with import
+
+import jccLogo from "./images/jcc.jpg"; // with import
+import seasonsLogo from "./images/seasons.jpg"; // with import
+import tataLogo from "./images/tata.jpg"; // with import
+import sankaraEyeLogo from "./images/sankara_eye_hospital.jpg"; // with import
+
+import satraLogo from "./images/satra.jpg"; // with import
+import dhootLogo from "./images/dhoot.jpg"; // with import
+
 
 function App() {
   return (
@@ -290,6 +301,18 @@ function App() {
             <img className="client-logos" src={ameetLogo} />
             <img className="client-logos" src={virakarLogo} />
             <img className="client-logos" src={namanLogo} />
+          </section>
+          <section className="sh-section-8-container-row sh-section-8-container-row-3">
+            <img className="client-logos client-logos-large client-logo-thin" src={jronLogo} />
+            <img className="client-logos client-logos-large" src={tattvaLogo} />
+            <section className="middle-section-row">
+              <img className="client-logos" src={jccLogo} />
+              <img className="client-logos" src={seasonsLogo} />
+              <img className="client-logos" src={tataLogo} />
+              <img className="client-logos" src={sankaraEyeLogo} />
+            </section>
+            <img className="client-logos client-logos-large" src={satraLogo} />
+            <img className="client-logos client-logos-large" src={dhootLogo} />
           </section>
         </section>
       </section>
