@@ -5,6 +5,14 @@ import mainLogo from "./images/sevenhills_icon.png"; // with import
 import imageTwo from "./images/sevenhills_icon.png"; // with import
 
 import logoWhite from "./images/sevenhills_icon_white.png"; // with import
+import sankaraLogo from "./images/sankara.jpg"; // with import
+import natekarLogo from "./images/natekar.jpg"; // with import
+
+import namanLogo from "./images/naman.jpg"; // with import
+import sabariLogo from "./images/sabari.jpg"; // with import
+import ameetLogo from "./images/ameet.jpg"; // with import
+import virakarLogo from "./images/vira.jpg"; // with import
+
 
 function App() {
   return (
@@ -200,30 +208,57 @@ function App() {
                 Erasing Structures for New Habitats
               </h2>
               <label className="sh-section-6-article-container-right-section-description sh-section-7-right-section-description">
-              Mittal Chembur site Kandari colony G+4 , 4 Buildings<br/>
-Mittal Andheri Site Rashim co op HSG society<br/>
-Mittal Saat Rasta site B I T Chawl G+5. 8 buildings<br/>
-Sabari natakar site G+2 |Sabari Garden site Chembur Basement G +2<br/>
-Aviva Ghatkopar G+4 | Rakesh Jhunjhunwala Panvel site G+7. 2 buildings<br/>
-M/s Westin Developers pvt.ltd | Veera desai andheri (W)<br/>
-M/s Ventures Kuber Reality LLP | Ville parle (E)<br/>
-\M/s Ayappa construction company | Santacruuz (W)<br/>
-M/.s Dipti Home Makers Pvt.ltd | Ambolinaka, Jogeshwari(E)<br/>
-M/s Ayappa construction company |Santacruz (W)<br/>
-M/s Wadhwa Estates & Developers Pvt.ltd | Juhu JVPD andheri(w) M/s Dipti<br/>
-Homemakers Pvt.ltd Jogeshwari (E)<br/>
-M/s Sai sidhant Developers | Dn Nagar Andheri (w)<br/>
-M/s Sheth builder's pvt Ltd | Mulund (w)<br/>
-M/s Nidhi Tower | Juhu Andheri (W)<br/>
-M/s Romell Realstate Pvt. Ltd | Vile Parle (E)<br/>
-M/s Ayappa Constructions Company | Santacruz (W)<br/>
-M/s Agaa enterprises Bandra (W)<br/>
-M/s Champak Textiles Pvt. Ltd. | Laxmi Industrial Estate, Andheri (W)<br/>
-M/s Ayappa Constructions Company | Santacruz (W)<br/>
-M/s Ameya Group Of Companies | Versova Yari Road, Andheri (W)<br/>
-M/s Milind Developers | Goregaon (E)<br/>
-M/s Dipti Homemakers Pvt. Ltd. | Amboli Naka, Jogeshwari (E)<br/>
-M/s Ayappa Constructions Company | Santacruz (w)
+                Mittal Chembur site Kandari colony G+4 , 4 Buildings
+                <br />
+                Mittal Andheri Site Rashim co op HSG society
+                <br />
+                Mittal Saat Rasta site B I T Chawl G+5. 8 buildings
+                <br />
+                Sabari natakar site G+2 |Sabari Garden site Chembur Basement G
+                +2
+                <br />
+                Aviva Ghatkopar G+4 | Rakesh Jhunjhunwala Panvel site G+7. 2
+                buildings
+                <br />
+                M/s Westin Developers pvt.ltd | Veera desai andheri (W)
+                <br />
+                M/s Ventures Kuber Reality LLP | Ville parle (E)
+                <br />
+                \M/s Ayappa construction company | Santacruuz (W)
+                <br />
+                M/.s Dipti Home Makers Pvt.ltd | Ambolinaka, Jogeshwari(E)
+                <br />
+                M/s Ayappa construction company |Santacruz (W)
+                <br />
+                M/s Wadhwa Estates & Developers Pvt.ltd | Juhu JVPD andheri(w)
+                M/s Dipti
+                <br />
+                Homemakers Pvt.ltd Jogeshwari (E)
+                <br />
+                M/s Sai sidhant Developers | Dn Nagar Andheri (w)
+                <br />
+                M/s Sheth builder's pvt Ltd | Mulund (w)
+                <br />
+                M/s Nidhi Tower | Juhu Andheri (W)
+                <br />
+                M/s Romell Realstate Pvt. Ltd | Vile Parle (E)
+                <br />
+                M/s Ayappa Constructions Company | Santacruz (W)
+                <br />
+                M/s Agaa enterprises Bandra (W)
+                <br />
+                M/s Champak Textiles Pvt. Ltd. | Laxmi Industrial Estate,
+                Andheri (W)
+                <br />
+                M/s Ayappa Constructions Company | Santacruz (W)
+                <br />
+                M/s Ameya Group Of Companies | Versova Yari Road, Andheri (W)
+                <br />
+                M/s Milind Developers | Goregaon (E)
+                <br />
+                M/s Dipti Homemakers Pvt. Ltd. | Amboli Naka, Jogeshwari (E)
+                <br />
+                M/s Ayappa Constructions Company | Santacruz (w)
               </label>
               <img
                 className="header-info-logo-white sh-section-7-image"
@@ -236,6 +271,25 @@ M/s Ayappa Constructions Company | Santacruz (w)
                 [DEMOLITION]
               </span>
             </section>
+          </section>
+        </section>
+      </section>
+
+      <section className="sh-section-2 sh-section-8 ">
+        <section className="sh-section-8-container-logo ">
+          <img className="footer-info-logo-image" src={mainLogo} />
+        </section>
+        <section className="sh-section-2-container  sh-section-8-container ">
+          <section className="sh-section-8-container-row sh-section-8-container-row-1">
+            <img className="client-logos" src={natekarLogo} />
+            <img className="client-logos" src={sankaraLogo} />
+          </section>
+          <section className="sh-section-8-container-row ">
+            <img className="client-logos" src={namanLogo} />
+            <img className="client-logos" src={sabariLogo} />
+            <img className="client-logos" src={ameetLogo} />
+            <img className="client-logos" src={virakarLogo} />
+            <img className="client-logos" src={namanLogo} />
           </section>
         </section>
       </section>
