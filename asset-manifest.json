@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sevenhills/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/sevenhills/static/js/main.dea1af89.chunk.js",
+    "main.js.map": "/sevenhills/static/js/main.dea1af89.chunk.js.map",
+    "runtime-main.js": "/sevenhills/static/js/runtime-main.31ec56e0.js",
+    "runtime-main.js.map": "/sevenhills/static/js/runtime-main.31ec56e0.js.map",
+    "static/js/2.2dc5c8d8.chunk.js": "/sevenhills/static/js/2.2dc5c8d8.chunk.js",
+    "static/js/2.2dc5c8d8.chunk.js.map": "/sevenhills/static/js/2.2dc5c8d8.chunk.js.map",
+    "static/js/3.79597673.chunk.js": "/sevenhills/static/js/3.79597673.chunk.js",
+    "static/js/3.79597673.chunk.js.map": "/sevenhills/static/js/3.79597673.chunk.js.map",
+    "index.html": "/sevenhills/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/sevenhills/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.2dc5c8d8.chunk.js.LICENSE.txt": "/sevenhills/static/js/2.2dc5c8d8.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/sevenhills/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.31ec56e0.js",
+    "static/js/2.2dc5c8d8.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.dea1af89.chunk.js"
+  ]
+}
