@@ -213,7 +213,7 @@ function App() {
 
       <section className="sh-section-2 sh-section-7 ">
         <section className="sh-section-2-container sh-section-6-container">
-          <section className="sh-section-6-article-container">
+          <section className="sh-section-6-article-container sh-section-7-article-container">
             <section className="sh-section-6-article-container-right-section section-7-background">
               <h2 className="sh-section-6-article-container-right-section-header">
                 Erasing Structures for New Habitats
