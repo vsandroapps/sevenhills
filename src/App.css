@@ -128,7 +128,7 @@
   align-items: flex-end;
   justify-content: flex-end;
   margin-right: 200px;
-  margin-bottom: 40px;
+  margin-bottom: 250px;
 }
 
 .sh-section-5-article-heading {
@@ -381,7 +381,6 @@
   .sh-section-5-container {
     margin: 0px;
     flex-direction: column;
-
   }
   .sh-section-5-article-heading {
     margin-right: 1px;
@@ -389,11 +388,10 @@
   .sh-section-5-article {
     width: 83%;
   }
-  .number-circle{
+  .number-circle {
     padding: 1px 10px;
-
   }
-  .sh-section-4-heading{
+  .sh-section-4-heading {
     font-size: 20px;
   }
   .sh-section-6-article-container-left-section {
@@ -477,7 +475,302 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .sh-intro-section {
+    width: 100vw;
+    height: 265px;
+    background-size: cover;
+  }
+  .header-info-logo {
+    width: 150px;
+    margin-top: 20px;
+  }
+  .profile-text-container {
+    left: 200px;
+    top: 30px;
+    font: 25px "Times New Roman";
+  }
+  .profile-text {
+    width: 60px;
+    line-height: 26px;
+  }
+  .profile-divider {
+    height: 94px;
+    margin-left: 50px;
+  }
+  .profile-text-left {
+    top: -56px;
+  }
+  .sh-section-2 {
+    height: fit-content;
+    background-size: cover;
+  }
+  .sh-section-3 {
+    height: fit-content;
+    background-size: cover;
+  }
+  .sh-section-2-container {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .sh-section-2-article {
+    margin: 90px;
+    padding: 16px;
+    font-size: 15px;
+    width: auto;
+  }
+  .sh-section-2-article-text {
+    font-size: 14px;
+  }
+  .sh-section-2-article-heading {
+    font-size: 34px;
+    width: auto;
+    padding: 0px 90px;
+  }
+  .sh-logo-footer-container {
+    padding-right: 16px;
+  }
+  .header-info-logo-white {
+    width: 80px;
+  }
+  .sh-section-3-container {
+    padding: 90px;
+    padding-top: 40px;
+  }
+  .sh-section-3-article-text {
+    font-size: 16px;
+    margin: 0px;
+    padding: 32px 110px;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  .sh-section-5-container {
+    margin: 0px;
+    flex-direction: column;
+  }
+  .sh-section-5-article-heading {
+    margin-right: 1px;
+  }
+  .sh-section-5-article {
+    width: 50%;
+  }
+  .number-circle {
+    padding: 1px 10px;
+  }
+  .sh-section-4-heading {
+    font-size: 20px;
+  }
+  .sh-section-6-article-container-left-section {
+    width: 100%;
+    padding: 100px 0px;
+  }
+  .section-header-title {
+    font-size: 2em;
+    text-align: center;
+  }
+  .section-header-title-highlight {
+    font-size: 32px;
+    left: 0px;
+  }
+  .sh-section-6-article-container {
+    flex-direction: column;
+  }
+  .sh-section-6-article-container-right-section {
+    width: auto;
+    padding: 90px;
+    height: auto;
+  }
+  .sh-section-6-article-container-right-section-header {
+    font-size: 32px;
+  }
+  .sh-section-6-article-container-right-section-description {
+    font-size: 16px;
+  }
+  .sh-section-6-container {
+    padding: 0px;
+  }
+  .sh-section-7-image {
+    left: 40%;
+  }
+  .sh-section-7-article-container {
+    flex-direction: column-reverse;
+  }
+  .section-7-background-right {
+    height: auto;
+    background-size: cover;
+  }
+  .sh-section-8-container-logo {
+    margin: 0px;
+    justify-content: center;
+    padding: 0px;
+  }
+  .sh-section-8-container {
+    margin-left: 1em;
+    background-size: contain;
+    padding: 20px 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    flex-direction: column;
+  }
+  .sh-section-8-container-row-1 {
+    margin-top: 60px;
+  }
+  .client-logos {
+    width: 106px;
+    height: 56px;
+    margin: 1px 1px;
+  }
+  .client-logo-thin {
+    width: 66px;
+  }
+  .middle-section-row {
+    width: 220px;
+  }
+  .client-logos-large {
+    height: 122px;
+  }
+  .sh-footer-title-description {
+    font-size: 16px;
+  }
+  .sh-footer-title {
+    font-size: 24px;
+  }
+  .sh-footer-section {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 24px;
+    padding-top: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .sh-section-8-container {
+    background-size: cover;
+  }
+  .sh-section-8-container-row-1 {
+    margin-top: 80px;
+  }
+  .client-logos {
+    width: 136px;
+    height: 75px;
+    margin: 4px 4px;
+  }
+  .client-logo-thin {
+    width: 66px;
+  }
+  .middle-section-row {
+    width: 292px;
+  }
+  .client-logos-large {
+    height: 170px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1500px) {
+  .header-info-logo{
+    margin-top: 100px;
+  }
+  .sh-intro-section,
+  .sh-section-2,
+  .sh-section-3 {
+    height: 966px;
+  }
+  .number-circle{
+    padding: 10px 20px;
+
+  }
+  .profile-text-container {
+    top: 210px;
+  }
+  .sh-section-2-article {
+    margin-left: 120px;
+    padding: 2em;
+  }
+  .sh-section-2-container {
+    padding-top: 110px;
+  }
+  .sh-section-2-article-text {
+    font-size: 26px;
+  }
+  .sh-section-2-article-heading {
+    font-size: 50px;
+  }
+  .sh-section-3-container {
+    padding: 110px 140px 280px 280px;
+  }
+  .sh-section-3-article-text {
+    font-size: 34px;
+  }
+  .sh-section-5-container {
+    padding-top: 300px;
+    margin-bottom: 60px;
+    margin-right: 102px;
+
+  }
+  .section-header-title{
+    padding:  0px 120px;
+    padding-right: 2em;
+
+  }
+  .section-header-title-highlight{
+    left:  -90px;
+
+  }
+  .sh-section-6-container {
+    padding: 0px;
+  }
+
+  .sh-section-6-article-container-right-section-header {
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+  .sh-section-6-article-container-right-section-description {
+    font-size: 17px;
+  }
+  .sh-section-6-image {
+    top: 0px;
+  }
+  .section-7-background {
+    height: 990px;
+    padding-left: 20px;
+  }
+  .section-7-background-right {
+    height: auto;
+  }
+  .sh-section-7 {
+    background-image: none;
+    height: 1028px !important;
+}
+  .sh-section-7-image {
+    top: -130px;
+  }
+  .sh-section-8-container {
+    padding-top: 110px;
+  }
+  .sh-section-8-container-row-1 {
+    margin-top: 0px;
+  }
+  .client-logos {
+    width: 165px;
+    margin: 4px 4px;
+    height: 90px;
+  }
+  .middle-section-row {
+    width: 350px;
+  }
+  .client-logo-thin {
+    width: 100px;
+  }
+  .client-logos-large {
+    height: 196px;
+  }
+  .sh-section-8{
+    height: 1200px;
+    background-size: cover;
+  }
+  .sh-section-8-container-logo{
+    padding:2em;
+  }
+  .sh-section-8-container{
+    height: 50%;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
