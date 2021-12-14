@@ -315,6 +315,12 @@ function App() {
             <img className="client-logos client-logos-large" src={dhootLogo} />
           </section>
         </section>
+        <section>
+          <p className="sh-footer-title">Seven Hills Construction</p>
+          <p className="sh-footer-title-description">Plotno 79, Ayodhya Society, R.C.Marg, Chembur, Mumbai - 400074.</p>
+          <p className="sh-footer-title-description">Contact : 9892027958, sevenhillsconstructions07@gmail.com</p>
+         
+        </section>
       </section>
     </div>
   );

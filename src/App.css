@@ -287,6 +287,15 @@ margin-top: 200px;
 .client-logo-thin{
   width: 150px;
 }
+.sh-footer-title{
+  font-size: 30px;
+  text-decoration-line: underline;
+
+}
+.sh-footer-title-description{
+  font-size: 26px;
+
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
