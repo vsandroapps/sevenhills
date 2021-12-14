@@ -139,7 +139,7 @@ function App() {
             Machinery{" "}
           </article>
 
-          <article className="sh-section-2-article">
+          <article className="sh-section-2-article sh-section-5-article">
             <label className="sh-section-2-article-text sh-section-4-heading">
               <span className="number-circle">2</span> L&T KOTMATSU PC 210{" "}
             </label>
@@ -315,7 +315,7 @@ function App() {
             <img className="client-logos client-logos-large" src={dhootLogo} />
           </section>
         </section>
-        <section>
+        <section className="sh-footer-section">
           <p className="sh-footer-title">Seven Hills Construction</p>
           <p className="sh-footer-title-description">Plotno 79, Ayodhya Society, R.C.Marg, Chembur, Mumbai - 400074.</p>
           <p className="sh-footer-title-description">Contact : 9892027958, sevenhillsconstructions07@gmail.com</p>

@@ -344,9 +344,9 @@
     background-size: cover;
   }
   .sh-section-2-container {
-    padding-top: 20px;
+    padding-top: 40px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .sh-section-2-article {
     margin: 15px;
@@ -360,6 +360,7 @@
   .sh-section-2-article-heading {
     font-size: 34px;
     width: auto;
+    padding: 0px 16px;
   }
   .sh-logo-footer-container {
     padding-right: 16px;
@@ -369,17 +370,31 @@
   }
   .sh-section-3-container {
     padding: 0px;
+    padding-top: 40px;
   }
   .sh-section-3-article-text {
     font-size: 16px;
     margin: 0px;
     padding: 1em;
+    background-color: rgba(255, 255, 255, 0.6);
   }
   .sh-section-5-container {
     margin: 0px;
+    flex-direction: column;
+
   }
   .sh-section-5-article-heading {
-    margin-right: 16px;
+    margin-right: 1px;
+  }
+  .sh-section-5-article {
+    width: 83%;
+  }
+  .number-circle{
+    padding: 1px 10px;
+
+  }
+  .sh-section-4-heading{
+    font-size: 20px;
   }
   .sh-section-6-article-container-left-section {
     width: 100%;
@@ -396,8 +411,8 @@
     flex-direction: column;
   }
   .sh-section-6-article-container-right-section {
-    width: 100%;
-    padding: 0px;
+    width: auto;
+    padding: 16px;
     height: auto;
   }
   .sh-section-6-article-container-right-section-header {
@@ -429,6 +444,7 @@
     background-size: contain;
     padding: 20px 10px;
     background-color: rgba(255, 255, 255, 0.6);
+    flex-direction: column;
   }
   .sh-section-8-container-row-1 {
     margin-top: 16px;
@@ -452,6 +468,11 @@
   }
   .sh-footer-title {
     font-size: 24px;
+  }
+  .sh-footer-section {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 24px;
+    padding-top: 16px;
   }
 }
 
