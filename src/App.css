@@ -171,7 +171,7 @@
   font-size: 5em;
   color: white;
   font-weight: 500;
-  padding: 0px 3em;
+  padding: 0px 270px;
   margin: 0px;
   text-align: left;
 }
@@ -180,7 +180,7 @@
   color: #ffd482;
   background-color: rgba(0, 0, 0, 0.6);
   position: relative;
-  left: -2em;
+  left: -100px;
 }
 .sh-section-6-container {
   margin-right: 0px;
@@ -400,6 +400,8 @@
   }
   .section-header-title {
     font-size: 2em;
+    padding: 0px 80px;
+
   }
   .section-header-title-highlight {
     font-size: 32px;
